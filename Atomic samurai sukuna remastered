@@ -85,3 +85,21 @@ local function waitForGui()
 end
 
 waitForGui()
+
+game.StarterGui:SetCore("SendNotification", {
+ Title = "bruh";
+ Text = "Script rewritten by luke";
+ Icon = "15369023075";
+ Duration= "10";
+ Button1 = "Button 1";
+ Button2 = "Button 2";
+})
+
+game.StarterGui:SetCore("SendNotification", {
+ Title = "warning";
+ Text = "Original script by zyrask";
+ Icon = "15369023075";
+ Duration= "10";
+ Button1 = "Button 1";
+ Button2 = "Button 2";
+})
